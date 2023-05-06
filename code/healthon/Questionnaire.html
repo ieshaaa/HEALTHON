@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="mental.css">
+</head>
+<body>
+ 
+    <div id="questionnaire" className="page">
+        <div className="inner-box">
+          <h1 class="quesh" id="questionnaire-heading">Questionnaire</h1>
+          <hr />
+          <form action="#symptom-identification">
+            <div class="ques" id="column-one">
+              <div>
+                <p> Q1 : Feeling nervous, anxious or on edge</p>
+                <div onChange={this.onChangeValue}>
+                  <input type="radio" id="not-at-all" name="ques-one" value="0"  />
+                  <label htmlFor="not-at-all">Not at all</label>
+  
+                  <input type="radio" id="several-days" name="ques-one" value="1"/>
+                  <label htmlFor="several-days">Several Days</label>
+  
+                  <input type="radio" id="more-than-half-the-days" name="ques-one" value="2"/>
+                  <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+  
+                  <input type="radio" id="nearly-everyday" name="ques-one" value="3"/>
+                  <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                </div>
+             </div>
+             <p>Q2 : Not being able to stop or control worrying</p>
+             <div>
+               <input type="radio" id="not-at-all" name="ques-two" value="0"  />
+               <label htmlFor="not-at-all">Not at all</label>
+
+               <input type="radio" id="several-days" name="ques-two" value="1"/>
+               <label htmlFor="several-days">Several Days</label>
+
+               <input type="radio" id="more-than-half-the-days" name="ques-two" value="2"/>
+               <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+
+               <input type="radio" id="nearly-everyday" name="ques-two" value="3"/>
+               <label htmlFor="nearly-everyday">Nearly Everyday</label>
+             </div>
+             <p>Q3 : Worrying too much about different things</p>
+             <div>
+               <input type="radio" id="not-at-all" name="ques-two" value="0"  />
+               <label htmlFor="not-at-all">Not at all</label>
+
+               <input type="radio" id="several-days" name="ques-two" value="1"/>
+               <label htmlFor="several-days">Several Days</label>
+
+               <input type="radio" id="more-than-half-the-days" name="ques-two" value="2"/>
+               <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+
+               <input type="radio" id="nearly-everyday" name="ques-two" value="3"/>
+               <label htmlFor="nearly-everyday">Nearly Everyday</label>
+             </div>
+             <p>Q4 : Trouble relaxing</p>
+             <div>
+               <input type="radio" id="not-at-all" name="ques-two" value="0"  />
+               <label htmlFor="not-at-all">Not at all</label>
+
+               <input type="radio" id="several-days" name="ques-two" value="1"/>
+               <label htmlFor="several-days">Several Days</label>
+
+               <input type="radio" id="more-than-half-the-days" name="ques-two" value="2"/>
+               <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+
+               <input type="radio" id="nearly-everyday" name="ques-two" value="3"/>
+               <label htmlFor="nearly-everyday">Nearly Everyday</label>
+             </div>
+             <p>Q5 : Being so restless that it is hard to sit still</p>
+             <div>
+               <input type="radio" id="not-at-all" name="ques-two" value="0"  />
+               <label htmlFor="not-at-all">Not at all</label>
+
+               <input type="radio" id="several-days" name="ques-two" value="1"/>
+               <label htmlFor="several-days">Several Days</label>
+
+               <input type="radio" id="more-than-half-the-days" name="ques-two" value="2"/>
+               <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+
+               <input type="radio" id="nearly-everyday" name="ques-two" value="3"/>
+               <label htmlFor="nearly-everyday">Nearly Everyday</label>
+             </div>
+             <p>Q6 : Becoming easily annoyed or irritable</p>
+             <div>
+               <input type="radio" id="not-at-all" name="ques-two" value="0"  />
+               <label htmlFor="not-at-all">Not at all</label>
+
+               <input type="radio" id="several-days" name="ques-two" value="1"/>
+               <label htmlFor="several-days">Several Days</label>
+
+               <input type="radio" id="more-than-half-the-days" name="ques-two" value="2"/>
+               <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+
+               <input type="radio" id="nearly-everyday" name="ques-two" value="3"/>
+               <label htmlFor="nearly-everyday">Nearly Everyday</label>
+             </div>
+             <div>
+             <p>Q7 :Feeling afraid as if something awful might happen </p>
+             <div>
+               <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+               <label htmlFor="not-at-all">Not at all</label>
+
+               <input type="radio" id="several-days" name="ques-seven" value="1"/>
+               <label htmlFor="several-days">Several Days</label>
+
+               <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+               <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+
+               <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+               <label htmlFor="nearly-everyday">Nearly Everyday</label>
+             </div>
+            <div>
+             <p>Q8 :Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual </p>
+             <div>
+               <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+                <label htmlFor="not-at-all">Not at all</label>
+    
+              <input type="radio" id="several-days" name="ques-seven" value="1"/>
+             <label htmlFor="several-days">Several Days</label>
+   
+              <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+              <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+   
+              <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+              <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                </div>
+           <div>
+             <p>Q9 :Thoughts that you would be better off dead or of hurting yourself in some way </p>
+             <div>
+               <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+               <label htmlFor="not-at-all">Not at all</label>
+
+               <input type="radio" id="several-days" name="ques-seven" value="1"/>
+               <label htmlFor="several-days">Several Days</label>
+
+               <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+               <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+
+               <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+               <label htmlFor="nearly-everyday">Nearly Everyday</label>
+             </div>
+             <div>
+                <p>Q10 :Trouble concentrating on things, such as reading the newspaper or watching television</p>
+                <div>
+                  <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+                  <label htmlFor="not-at-all">Not at all</label>
+   
+                  <input type="radio" id="several-days" name="ques-seven" value="1"/>
+                  <label htmlFor="several-days">Several Days</label>
+   
+                  <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+                  <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+   
+                  <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+                  <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                </div>
+                <div>
+                    <p>Q11 :Feeling bad about yourself — or that you are a failure or have let yourself or your family down </p>
+                    <div>
+                      <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+                      <label htmlFor="not-at-all">Not at all</label>
+       
+                      <input type="radio" id="several-days" name="ques-seven" value="1"/>
+                      <label htmlFor="several-days">Several Days</label>
+       
+                      <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+                      <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+       
+                      <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+                      <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                    </div>
+                    <div>
+                        <p>Q12 :Poor appetite or overeating </p>
+                        <div>
+                          <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+                          <label htmlFor="not-at-all">Not at all</label>
+           
+                          <input type="radio" id="several-days" name="ques-seven" value="1"/>
+                          <label htmlFor="several-days">Several Days</label>
+           
+                          <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+                          <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+           
+                          <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+                          <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                        </div>   
+                        <div>
+                            <p>Q13 : Feeling tired or having little energy </p>
+                            <div>
+                              <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+                              <label htmlFor="not-at-all">Not at all</label>
+               
+                              <input type="radio" id="several-days" name="ques-seven" value="1"/>
+                              <label htmlFor="several-days">Several Days</label>
+               
+                              <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+                              <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+               
+                              <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+                              <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                            </div>   
+                            <div>
+                                <p>Q14 : Trouble falling or staying asleep, or sleeping too much </p>
+                                <div>
+                                  <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+                                  <label htmlFor="not-at-all">Not at all</label>
+                   
+                                  <input type="radio" id="several-days" name="ques-seven" value="1"/>
+                                  <label htmlFor="several-days">Several Days</label>
+                   
+                                  <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+                                  <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+                   
+                                  <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+                                  <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                                </div>   
+                             <div>
+                                    <p>Q15 :Feeling down, depressed, or hopeless </p>
+                                    <div>
+                                      <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+                                      <label htmlFor="not-at-all">Not at all</label>
+                       
+                                      <input type="radio" id="several-days" name="ques-seven" value="1"/>
+                                      <label htmlFor="several-days">Several Days</label>
+                       
+                                      <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+                                      <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+                       
+                                      <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+                                      <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                                    </div>                                                                                       
+                                    <div>
+                                        <p>Q16 :Little interest or pleasure in doing thing </p>
+                                        <div>
+                                          <input type="radio" id="not-at-all" name="ques-seven" value="0"  />
+                                          <label htmlFor="not-at-all">Not at all</label>
+                           
+                                          <input type="radio" id="several-days" name="ques-seven" value="1"/>
+                                          <label htmlFor="several-days">Several Days</label>
+                           
+                                          <input type="radio" id="more-than-half-the-days" name="ques-seven" value="2"/>
+                                          <label htmlFor="more-than-half-the-days">More than Half the Days</label>
+                           
+                                          <input type="radio" id="nearly-everyday" name="ques-seven" value="3"/>
+                                          <label htmlFor="nearly-everyday">Nearly Everyday</label>
+                                        </div> 
+                                </div>
+
+                                <div class="btnq">
+                                  <button   class="btnq1">
+                                    <a class="btnq1" href="mental.html">Back  </a>
+                                  </button>
+                                    
+                                  <button   class="btnq1">
+                                    <a class="btnq1" href="mental.html"> Submit  </a>
+                                  </button>
+                               
+                            
+                                </div>
+            
+             
+</body>
+</html>
